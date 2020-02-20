@@ -1,0 +1,46 @@
+body {
+    background-color: #1c1c1c;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    color: aliceblue;
+    padding: 2rem;
+    width: 60%;
+    height: auto;
+    margin: 7% auto;
+    text-align: center;
+}
+
+.avatar {
+    width: 7rem;
+    height: 7rem;
+    border: 5px solid #aec6cf;
+    border-radius: 30%;
+    margin: auto;
+    -webkit-transition: border-color 1s;
+    -moz-transition:    border-color 1s;
+    -ms-transition:     border-color 1s;
+    -o-transition:      border-color 1s;
+    transition:         border-color 1s;
+    /* background-image: url(''); */
+}
+
+.avatar:hover {
+    border: 5px solid #4e4e50;
+    /* background-image: url(''); */
+}
+
+.social-media a {
+    text-decoration: none;
+    margin-left : 0.3rem;
+}
+
+.social-media img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+h1, strong {
+    color: #aec6cf
+}
